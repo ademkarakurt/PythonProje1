@@ -1,2 +1,2 @@
 # PythonProje1
-[patika.dev](patika.dev) python temel proje1
+[patika.dev](https://www.patika.dev/tr) python temel proje1
