@@ -1,0 +1,11 @@
+
+l=[[1,'a',['cat'],2],[[[3]],'dog'],4,5]
+yeni_liste=list()
+def list_kontrol(l): # fonksiyon l listesini kontrol edecek
+    for i in l: 
+        if isinstance(i,list):  #i indexdeki eleman liste mi? 
+            list_kontrol(i)    
+        else:
+            yeni_liste.append(i)
+list_kontrol(l)
+print(yeni_liste)
